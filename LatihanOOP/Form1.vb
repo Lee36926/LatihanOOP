@@ -5,7 +5,7 @@
         If strNoMatrik.Length < 12 Then
             MessageBox.Show("Nombor matrik terlalu pendek")
         Else
-            Dim PelajarBaru As New Pelajar(strNoMatrik) ' perhatikan error pada Pelajar
+            Dim PelajarBaru As New Pelajar(strNoMatrik)
             txtPoliteknik.Text = PelajarBaru.Politeknik
             txtProgram.Text = PelajarBaru.Program
             txtAmbilan.Text = PelajarBaru.Ambilan
